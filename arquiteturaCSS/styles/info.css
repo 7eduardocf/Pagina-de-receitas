@@ -1,0 +1,57 @@
+.info{
+    text-align: center;
+}
+.info-titulo{
+    font-size: 3.1875rem;
+    font-family: "Pacifico", cursive;
+    color: #8d0606;
+    font-weight: 300;
+}
+.info-descricao{
+    font-size: 1.75em;
+    font-weight: 100;
+    color: #8c8888;
+}
+.info-cards{
+    display: flex;
+    padding: 4em;
+    justify-content: space-around;
+}
+.info-item{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.info-img{
+    border-radius: 50%;
+}
+.info-name{
+    color: #8d0606;
+    font-family: "Pacifico", cursive;
+    font-size: 2em;
+    font-weight: 300;
+}
+.info-info{
+    font-size: 1.1875em;
+    font-weight: 400;
+    color: #8c8888;
+}
+@media screen and (min-width: 0) {
+    .info-cards{
+        flex-direction: column;
+    }
+    .info-item{
+        align-items: center;
+    }
+    .info-img{
+        width: 50%;
+    }
+}
+@media screen and (min-width: 762px) {
+    .info-cards{
+        flex-direction: row;
+    }
+    .info-img{
+        width: 100%;
+    }
+}

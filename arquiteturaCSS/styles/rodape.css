@@ -1,0 +1,17 @@
+.rodape{
+    background-color: #c4c4c4;
+    padding: 2em;
+    display: flex;
+    gap: 1em;
+    justify-content: right;
+    align-items: center;
+}
+.rodape-titulo{
+    color: white;
+    font-size: 2em;
+}
+.rodape-div{
+    width: 3.625em;
+    height: 3.625em;
+    background-color: #8d0606;
+}

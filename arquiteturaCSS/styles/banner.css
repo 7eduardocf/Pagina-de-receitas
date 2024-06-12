@@ -1,0 +1,66 @@
+.banner{
+    background-image: url(../styles/img/Photo\ by\ Annie\ Spratt\ on\ Unsplash.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: calc(100vh - 72px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-titulo{
+    font-size: 5.025em;
+    font-family: "Pacifico", cursive;
+    color: #fdfdfd;
+    text-shadow: 0 4px 4px rgba( 0, 0, 0, .9);
+}
+.incentivo{
+    text-align: center;
+    padding: 3em;
+}
+.incentivo-subtitulo{
+    font-size: 3.1875em;
+    color: #8D0606;
+    font-family: "Pacifico", cursive;
+}
+.incentivo-texto{
+    font-size: 1.75em;
+    color:#8C8888;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
+@media screen and (min-width: 0) {
+    .banner-titulo{
+        font-size: 3rem;
+        text-align: center;
+    }
+    .banner{
+        height: calc(100vh - 51px);
+    }
+    .incentivo{
+        padding: 2.5rem 1rem;
+    }
+    .incentivo-subtitulo{
+        font-size: 2em;
+    }
+    .incentivo-texto{
+        font-size: 1.3em;
+    }
+}
+@media screen and (min-width: 768px){
+    .banner-titulo{
+        font-size: 5.025em;
+    }
+    .banner{
+        height: calc(100vh - 72px);
+    }
+    .incentivo{
+        padding: 2.5rem;
+    }
+    .incentivo-subtitulo{
+        font-size: 3.1875em;
+    }
+    .incentivo-texto{
+        font-size: 1.75em;
+    }
+}
